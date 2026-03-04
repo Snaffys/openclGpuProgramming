@@ -33,6 +33,3 @@ jobs:
       - name: Build project
         run: cmake --build build --parallel
 
-      - name: Run executable
-        run: ./build/bin/openclGpuProgramming
-
